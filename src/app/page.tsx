@@ -250,8 +250,8 @@ export default function TrueCostAI() {
   return (
     <div className="min-h-screen w-full flex flex-col p-4 gap-4 bg-white pb-20">
       <header className="w-full flex flex-col sm:flex-row sm:justify-between items-start sm:items-center">
-        <h1 className="text-xl sm:text-2xl font-bold">TrueCost AI 💸</h1>
-        <p className="text-xs sm:text-sm text-gray-500 mt-1 sm:mt-0">Exposing the real cost of your faves</p>
+        <h1 className="text-xl sm:text-2xl font-bold">Find RealCost of your item 💰 </h1>
+        <p className="text-xs sm:text-sm text-gray-500 mt-1 sm:mt-0">Exposing the real cost of items you love</p>
       </header>
 
       <section className="w-full flex flex-col gap-4 flex-1">
@@ -498,7 +498,7 @@ export default function TrueCostAI() {
 </div>
 
              <footer className="text-xs text-gray-400 mt-6 text-center pb-20">
-         Fr fr, this is just the materials cost. They're still making bank on labor, shipping, and marketing 💸
+         Raw materials are just the tip of the iceberg — the rest is pure profit from labor, shipping, and marketing 💎 
        </footer>
     </div>
   );
