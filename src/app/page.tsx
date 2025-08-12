@@ -4,16 +4,16 @@ import React, { useEffect, useRef, useState } from "react";
 
 // Gen Z facts for loading screen
 const funFacts = [
-  "No cap, that iPhone probably cost like $50 to make but they're charging you $1000+ 💀",
-  "Bestie, your Starbucks cup is literally just paper but they're making bank on it ☕️",
-  "Fr fr, that designer bag is just leather and thread but they're taxing you $500+ 💼",
-  "Periodt, some brands be having 1000%+ markup and we're just eating it up 😭",
-  "Slay, the fashion industry be marking up clothes by 400-800% and we still buy it 👗",
-  "No lie, electronics have the highest profit margins and we're all falling for it 📱",
-  "Fr, that $200 sneaker probably cost $20 to make and we're still copping it 👟",
-  "Literally, luxury brands be having 10x markup and we're still obsessed ✨",
-  "Periodt, bottled water has 4000% markup and we're still buying it 💧",
-  "Bestie, some products are literally just repackaged versions of cheaper stuff 🤡"
+"No cap — that phone probably costs less than your dinner but sells for a month’s rent 🤑"
+"Bestie, that coffee is 90% water and 10% foam but they’re printing money ☕️"
+"For real — that ‘luxury’ bag is just leather and a logo but costs like a vacation 💼"
+"Not even joking — some brands hit 1000% markup and we clap for them 😭"
+"Slay all you want, but that $200 dress cost them $20 to make 👗"
+"Honestly — electronics are profit machines and we’re still lining up 📱"
+"That $250 sneaker? Materials probably cost less than your lunch 👟"
+"Luxury math: spend $50 making it, charge $500, call it ‘exclusive’ ✨"
+"Bottled water markup is wild — you’re basically buying fancy tap 💧"
+"Half the stuff we buy is just the cheap version in prettier packaging 🤡"
 ];
 
 // ----------------------------------------------
