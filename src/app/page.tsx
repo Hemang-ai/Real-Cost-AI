@@ -302,17 +302,13 @@ export default function TrueCostAI() {
           
         <div className="w-full mt-3 flex gap-2">
 
-          <button
-  onClick={analyzeFrame}
-  disabled={!streaming || loading}
-  className={`flex-1 px-5 py-3 rounded-lg font-bold text-lg shadow-lg border-2 transition-all duration-200
-    ${(!streaming || loading)
-      ? "bg-gray-300 border-gray-400 text-gray-600 cursor-not-allowed"
-      : "bg-gradient-to-r from-yellow-400 to-orange-500 border-yellow-600 text-black hover:from-yellow-500 hover:to-orange-600 hover:scale-105"
-    }`}
->
-  {loading ? "☕ Brewing the tea..." : "🔥 Spill the Tea Now!"}
-</button>
+         <button 
+              onClick={analyzeFrame} 
+              disabled={!streaming || loading} 
+              className="flex-1 px-4 py-3 rounded-lg border border-gray-300 text-black bg-white hover:bg-gray-50 disabled:opacity-50 transition-all duration-200 font-medium"
+            >
+              {loading ? "Exposing the tea..." : "Spill the tea ☕️"}
+            </button>
           
             {result && (
               <button 
