@@ -4,17 +4,13 @@ import React, { useEffect, useRef, useState } from "react";
 
 // Gen Z facts for loading screen
 const funFacts = [
-"No cap — that phone probably costs less than your dinner but sells for a month’s rent 🤑"
-"Bestie, that coffee is 90% water and 10% foam but they’re printing money ☕️"
-"For real — that ‘luxury’ bag is just leather and a logo but costs like a vacation 💼"
-"Not even joking — some brands hit 1000% markup and we clap for them 😭"
-"Slay all you want, but that $200 dress cost them $20 to make 👗"
-"Honestly — electronics are profit machines and we’re still lining up 📱"
-"That $250 sneaker? Materials probably cost less than your lunch 👟"
-"Luxury math: spend $50 making it, charge $500, call it ‘exclusive’ ✨"
-"Bottled water markup is wild — you’re basically buying fancy tap 💧"
-"Half the stuff we buy is just the cheap version in prettier packaging 🤡"
+  "No cap — that phone probably costs less than your dinner but sells for a month’s rent 🤑",
+  "Bestie, that coffee is 90% water and 10% foam but they’re printing money ☕️",
+  "For real — that ‘luxury’ bag is just leather and a logo but costs like a vacation 💼",
+  "Not even joking — some brands hit 1000% markup and we clap for them 😭",
+  "Slay all you want, but that $200 dress cost them $20 to make 👗"
 ];
+
 
 // ----------------------------------------------
 // Helpers + Lightweight Tests
