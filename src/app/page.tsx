@@ -4,7 +4,7 @@ import React, { useEffect, useRef, useState } from "react";
 
 // Gen Z facts for loading screen
 const funFacts = [
-  "No cap, that iPhone probably cost like $50 to make but they're charging you $1000+ 💀",
+  "No cap, that iPhone probably cost like $50 to make but they're charging you $1000+s 💀",
   "Bestie, your Starbucks cup is literally just paper but they're making bank on it ☕️",
   "Fr fr, that designer bag is just leather and thread but they're taxing you $500+ 💼",
   "Periodt, some brands be having 1000%+ markup and we're just eating it up 😭",
