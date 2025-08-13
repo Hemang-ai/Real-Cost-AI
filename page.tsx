@@ -497,150 +497,25 @@ export default function TrueCostAI() {
         </div>
       </section>
 
-      {/* Social Proof Section */}
-      <section className="w-full bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg p-3 mt-4">
-        <div className="text-center mb-3">
-          <h3 className="font-bold text-base text-gray-800 mb-1">Trusted by 10,000+ Users</h3>
-          <p className="text-xs text-gray-600">Built by Sirio with love</p>
-        </div>
-        <div className="flex justify-center space-x-3">
-          <a 
-            href="https://enhancor.ai" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="bg-white hover:bg-gray-50 text-gray-800 px-3 py-1.5 rounded-md font-semibold shadow-sm transition-colors text-xs"
-          >
-            Try Enhancor.ai
-          </a>
-          <a 
-            href="https://kora.enhancor.ai" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="bg-white hover:bg-gray-50 text-gray-800 px-3 py-1.5 rounded-md font-semibold shadow-sm transition-colors text-xs"
-          >
-            Create with KORA
-          </a>
-        </div>
-      </section>
+    
 
       <canvas ref={canvasRef} className="hidden" />
       
-      {/* Floating CTA Button */}
-      <div className="fixed top-4 right-4 z-[9998]">
-        <a 
-          href="https://enhancor.ai" 
-          target="_blank" 
-          rel="noopener noreferrer"
-          className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full font-bold shadow-lg hover:shadow-xl transition-all duration-300 text-sm"
-        >
-          Fix AI Photos
-        </a>
-      </div>
       
-      {/* Sticky bottom banner */}
-      <div className="fixed bottom-0 left-0 right-0 bg-black text-white p-4 border-t border-gray-800 z-[9999]" style={{ position: 'fixed', bottom: 0, left: 0, right: 0, zIndex: 9999 }}>
-        <div className="flex justify-between items-center max-w-md mx-auto text-base">
-          {bannerText === 0 ? (
-            <div className="flex items-center space-x-2">
-              <span>by</span>
-              <a 
-                href="https://instagram.com/heysirio" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="font-bold hover:underline transition-colors text-blue-300 hover:text-blue-200"
-              >
-                @heysirio
-              </a>
-            </div>
-          ) : bannerText === 1 ? (
-            <div className="flex items-center space-x-2">
-              <span className="text-gray-400">⚡ Try</span>
-              <a 
-                href="https://enhancor.ai" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="font-bold hover:underline transition-colors text-blue-300 hover:text-blue-200"
-              >
-                Enhancor.ai
-              </a>
-              <span className="text-gray-400">fix AI photos now</span>
-            </div>
-          ) : (
-            <div className="flex items-center space-x-2">
-              <span className="text-gray-400">🎨 Generate realistic AI images</span>
-            </div>
-          )}
-                    {bannerText === 0 ? (
-            <div className="flex items-center space-x-2">
-              <span className="text-gray-400">🔥 10k+ users love</span>
-              <a 
-                href="https://enhancor.ai" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="font-bold hover:underline transition-colors text-blue-300 hover:text-blue-200"
-              >
-                Enhancor.ai
-              </a>
-            </div>
-          ) : bannerText === 1 ? (
-            <a 
-              href="https://enhancor.ai" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg font-bold transition-colors text-sm"
-            >
-              Try Now →
-            </a>
-          ) : (
-            <a 
-              href="https://kora.enhancor.ai" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg font-bold transition-all duration-300 text-sm shadow-lg hover:shadow-xl shadow-blue-500/50 hover:shadow-blue-500/70"
-            >
-              Try KORA
-            </a>
-          )}
-        </div>
-      </div>
-      
-      {/* Exit Intent Popup */}
-      {showExitPopup && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 z-[10000] flex items-center justify-center p-4">
-          <div className="bg-white rounded-xl p-6 max-w-sm w-full text-center">
-            <h3 className="font-bold text-xl mb-2">Wait! 🚀</h3>
-            <p className="text-gray-600 mb-4">Don't leave without trying our AI photo tools!</p>
-            <div className="space-y-3">
-              <a 
-                href="https://enhancor.ai" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="block w-full bg-blue-600 hover:bg-blue-700 text-white py-3 px-4 rounded-lg font-bold transition-colors"
-              >
-                Fix AI Photos Now
-              </a>
-              <a 
-                href="https://kora.enhancor.ai" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="block w-full bg-purple-600 hover:bg-purple-700 text-white py-3 px-4 rounded-lg font-bold transition-colors"
-              >
-                Create with KORA
-              </a>
-              <button 
-                onClick={() => setShowExitPopup(false)}
-                className="block w-full text-gray-500 hover:text-gray-700 py-2"
-              >
-                Maybe later
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
-      
+      {/* Highlighted Button for Hemang Upadhyay */}
+<div className="flex justify-center mt-8">
+  <button
+    onClick={() => window.open("https://www.hemangupadhyay.com", "_blank")}
+    className="px-6 py-2 bg-yellow-400 hover:bg-yellow-500 text-black font-bold rounded shadow-lg border-2 border-yellow-600 transition-all duration-200"
+  >
+    🚀 Built by Hemang Upadhyay
+  </button>
+</div>
+
              <footer className="text-xs text-gray-400 mt-6 text-center pb-20">
-         Fr fr, this is just the materials cost. They're still making bank on labor, shipping, and marketing 💸
+         Raw materials are just the tip of the iceberg — the rest is pure profit from labor, shipping, and marketing 💎 
        </footer>
     </div>
+    
   );
 }
