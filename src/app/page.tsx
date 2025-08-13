@@ -300,13 +300,14 @@ export default function TrueCostAI() {
           </div>
           
           <div className="w-full mt-3 flex gap-2">
-            <button 
-              onClick={analyzeFrame} 
-              disabled={!streaming || loading} 
-              className="flex-1 px-4 py-3 rounded-lg border border-gray-300 text-black bg-white hover:bg-gray-50 disabled:opacity-50 transition-all duration-200 font-medium"
-            >
-              {loading ? "Exposing the tea..." : "Spill the tea ☕️"}
-            </button>
+            
+  <button
+    onClick={() => window.open("https://www.hemangupadhyay.com", "_blank")}
+    className="px-6 py-2 bg-yellow-400 hover:bg-yellow-500 text-black font-bold rounded shadow-lg border-2 border-yellow-600 transition-all duration-200"
+  >
+    {loading ? "Exposing the tea..." : "Spill the tea ☕️"}
+  </button>
+</div>
             {result && (
               <button 
                 onClick={reset} 
