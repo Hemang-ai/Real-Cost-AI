@@ -300,7 +300,7 @@ export default function TrueCostAI() {
           </div>
           
           <div className="w-full mt-3 flex gap-2">
-            
+        <div className="flex justify-center mt-8">    
   <button
     onClick={() => window.open("https://www.hemangupadhyay.com", "_blank")}
     className="px-6 py-2 bg-yellow-400 hover:bg-yellow-500 text-black font-bold rounded shadow-lg border-2 border-yellow-600 transition-all duration-200"
