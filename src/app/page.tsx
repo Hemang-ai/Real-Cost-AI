@@ -299,7 +299,7 @@ export default function TrueCostAI() {
             )}
           </div>
           
-          <div className="w-full mt-3 flex gap-2">
+          
         <div className="flex justify-center mt-8">    
   <button
     onClick={() => window.open("https://www.hemangupadhyay.com", "_blank")}
